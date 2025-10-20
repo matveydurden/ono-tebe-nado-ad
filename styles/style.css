@@ -1,1 +1,307 @@
-/* место для вашего кода */
+
+@import url('../fonts/fonts.css');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header, main, footer {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    height: 293px;
+    justify-content: space-between;
+}
+
+.contact-info {
+    max-width: 240px;
+    font-style: normal;
+    justify-self: end;
+    margin-left: 184px;
+}
+
+.logo-link {
+    width: 148px;
+    height: 105px;
+}
+
+.main-navigation a {
+    color: black;
+}
+
+.navigation-list {
+    display: flex;
+    gap: 26px;
+}
+
+nav li:first-child {
+    list-style-type: none;
+}
+
+.link-active {
+    text-decoration: none;
+}
+
+.hero-section {
+    height: 757px;
+    width: 1100px;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-title-line {
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+    display: block;
+    letter-spacing: 30px;
+}
+
+.hero-title-first {
+    padding-top: 165px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-title-second {
+    padding-left: 380.5px;
+    margin-bottom: 20px;
+}
+
+.hero-title-third {
+    padding-left: 663px;
+    margin-bottom: 106px;
+}
+
+.hero-subtitle {
+    line-height: 28px;
+    color: white;
+    font-size: 22px;
+    word-spacing: 20px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    max-width: 100%;
+}
+
+.bid-button {
+    border: 1px solid white;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    width: 256px;
+    height: 51px;
+}
+
+.hero-footer {
+    margin-left: 50px;
+    width: 1000px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.section-heading {
+    padding-top: 180px;
+    padding-bottom: 27px;
+    padding-left: 67px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lots-grid {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 25px;
+    justify-content: flex-start;
+    padding: 0; 
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+.lot-item {
+    max-width: 334px;
+    min-height: 563px;
+    flex-grow: 1;
+}
+
+.lot-card {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    padding: 51px 40px 48px;
+    justify-content: space-between;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lot-card-cinema {
+    background-image: url(./../images/card-lot-01.jpg);
+}
+
+.lot-card-book {
+    background-image: url(./../images/card-lot-02.jpg);
+}
+
+.lot-card-painting {
+    background-image: url(./../images/card-lot-03.jpg);
+}
+
+.lot-card-heading {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.lot-card-description {
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.more-link {
+    display: block;
+    text-underline-offset: 3px;
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-left: 64px;
+}
+
+.info-section {
+    margin-top: 148px;
+}
+
+.info-wrapper {
+    display: grid;
+    grid-template-columns: 334px repeat(1, 1fr);
+    gap: 25px;
+    padding: 34px 24px 0px;
+}
+
+.logo-container {
+    justify-self: center;
+    background-color: #000;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-white {
+    width: 148px;
+    height: 114px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 100px;
+}
+
+.info-heading {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.info-text-block {
+    align-self: flex-start;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.info-paragraph-first {
+    padding-top: 76px;
+} 
+
+.info-paragraph-second {
+    padding-top: 25px;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 180px 50px 88px;
+    gap: 140px;
+    align-items: flex-start;
+}
+
+.footer-contacts {
+    padding-left: 0px; 
+    text-decoration: none;
+    font-style: normal;
+    list-style-type: none;
+}
+
+.footer-navigation {
+    padding-left: 35px;
+}
+
+.footer-nav-list {
+    list-style-type: none;
+    text-underline-offset: 3px;
+}  
+
+.footer-nav-link {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-nav-main {
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.social-links {
+    display: flex;
+    gap: 48px;
+}
