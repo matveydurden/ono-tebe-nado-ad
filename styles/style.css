@@ -22,7 +22,8 @@ footer {
     max-width: 240px;
     font-style: normal;
     justify-self: end;
-    margin-left: 184px;
+    margin-left: 134px;
+    margin-right: 50px;
 }
 
 .logo-link {
@@ -37,6 +38,7 @@ footer {
 .navigation-list {
     display: flex;
     gap: 26px;
+    margin-left: 50px;
 }
 
 nav li:first-child {
@@ -146,7 +148,7 @@ nav li:first-child {
 
 .lot-item {
     max-width: 334px;
-    min-height: 563px;
+    min-height: 596px;
     flex-grow: 1;
 }
 
@@ -275,6 +277,7 @@ nav li:first-child {
 
 .footer-navigation {
     padding-left: 35px;
+    display: flex;
 }
 
 .footer-nav-list {
@@ -284,7 +287,7 @@ nav li:first-child {
 
 .footer-nav-link {
     color: black;
-    text-align: center;
+    justify-items: center;
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
