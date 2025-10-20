@@ -1,18 +1,17 @@
-
-@import url('../fonts/fonts.css');
-
 * {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
 }
 
-header, main, footer {
+header, 
+main, 
+footer {
     width: 1100px;
     margin: 0 auto;
 }
 
-.page-header {
+.header {
     display: flex;
     align-items: center;
     height: 293px;
@@ -48,7 +47,7 @@ nav li:first-child {
     text-decoration: none;
 }
 
-.hero-section {
+.main {
     height: 757px;
     width: 1100px;
     background-image: 
@@ -259,7 +258,6 @@ nav li:first-child {
     padding-top: 25px;
 }
 
-
 .footer {
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -269,7 +267,7 @@ nav li:first-child {
 }
 
 .footer-contacts {
-    padding-left: 0; 
+    padding-left: 0px; 
     text-decoration: none;
     font-style: normal;
     list-style-type: none;
